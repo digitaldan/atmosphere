@@ -667,7 +667,7 @@ public class AtmosphereFramework implements ServletContextProvider {
             asyncSupport.init(scFacade);
             initAtmosphereHandler(scFacade);
             configureAtmosphereInterceptor(scFacade);
-            analytics();
+            //analytics();
 
 
             // http://java.net/jira/browse/ATMOSPHERE-157
