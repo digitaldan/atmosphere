@@ -890,7 +890,7 @@ public class AtmosphereFramework {
             asyncSupport.init(scFacade);
             initAtmosphereHandler(scFacade);
             configureAtmosphereInterceptor(scFacade);
-            analytics();
+            //analytics();
 
             // http://java.net/jira/browse/ATMOSPHERE-157
             if (sc.getServletContext() != null) {
